@@ -26,6 +26,10 @@ drawpad.grid(row=0, column=1)
 square = drawpad.create_rectangle(300,250,500,400, fill='red')
 line = drawpad.create_line(300,250,400,200)
 line = drawpad.create_line(400,200,500,250,)
+square = drawpad.create_rectangle(320,300,350,330, fill ='cyan')
+square = drawpad.create_rectangle(450,300,480,330, fill ='cyan')
+square = drawpad.create_rectangle(390,350,420,400, fill ='green')
+
 
 
 
