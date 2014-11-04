@@ -22,7 +22,10 @@ root = Tk()
 drawpad = Canvas(root, width=800,height=600, background='white')
 drawpad.grid(row=0, column=1)
 
-# Insert your code here to draw the house!
+# Insert your code here to draw the house
+square = drawpad.create_rectangle(250,200,550,500, fill='red')
+line = drawpad.create_line(450, 0, 250, 200)
+
 
 
 root.mainloop()
