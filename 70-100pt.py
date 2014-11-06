@@ -30,8 +30,9 @@ square = drawpad.create_rectangle(320,300,350,330, fill ='cyan')
 square = drawpad.create_rectangle(450,300,480,330, fill ='cyan')
 square = drawpad.create_rectangle(390,350,430,400, fill ='green')
 oval = drawpad.create_oval(390, 370, 400, 380, fill='blue')
-
-
+line = drawpad.create_line(450,170,450,227)
+line = drawpad.create_line(450,170,480,170)
+line = drawpad.create_line(480,170,480,240)
 
 
 
